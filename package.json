@@ -1,0 +1,21 @@
+{
+  "name": "pos-itunes",
+  "version": "1.0.0",
+  "description": "Add tags to MP3 file for iTunes.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node start.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "shinich39 <shinich39@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fluent-ffmpeg": "^2.1.3",
+    "puppeteer": "^22.10.1"
+  }
+}
